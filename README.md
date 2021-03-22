@@ -14,3 +14,4 @@ My favourite element would have to be the landing page. I think I got it looking
 
 ## Comments: 
 - From what I gather from the specs, it seems like this website wanted a static header (stays there no matter what) but when you scroll up or down, it scrolls to the previous or next section. I looked into implementing this, but again, ran out of time. My shortcut was to copy paste the header (which is not ideal). I could have templated a "section" that has a header in it, to reduce code duplication.
+- If I were to restart this, the biggest thing I need to work on is modularity. I started trying to be more modular in my programming near the end, but it would have made everything a lot easier to implement.
