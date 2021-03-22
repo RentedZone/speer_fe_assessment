@@ -1,0 +1,163 @@
+<script>
+    let isMusicPlaying = false;
+    function play() {
+        let audio = document.getElementById("audio");
+        if(!isMusicPlaying){
+            audio.play();
+            isMusicPlaying = true;
+        } else {
+            audio.pause();
+            isMusicPlaying = false;
+        }
+    }
+</script>
+
+<div class="slideshow">
+    <img class="slides" src="/imgs/one.png">
+    <img class="slides" src="/imgs/two.png">
+    <img class="slides" src="/imgs/three.png">
+    <img class="slideshow-button prev" src="/imgs/arrow.png">
+    <img class="slideshow-button next" src="/imgs/arrow.png">
+    <div class="main-button"><a href="/pricing" class="pricing-button" data-text="Pricing">Try it Now</a></div>
+    <div class="slideshow-dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+    <div class="text-over-slides">
+        <h1>Interactive Concert Experience</h1>
+        <p>Experience your favourite artists like never<br>before and from the comfort of your own home.</p>
+    </div>
+</div>
+
+<div class="section-box red">
+    <div class="navbar-background">
+        <div class="burger-wrapper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="header-title">
+            exp|con
+        </div>
+        <div class="std-button">
+            <a class="try-it-now top-right-btn" href="/pricing">Try It Now</a>
+        </div>
+    </div>
+
+    <div class="red-text">
+        <h1>Superior Sound</h1>
+        <p>Experience live versions of your<br>favourite songs.</p>
+        <div class="std-button demo-btn"><a class="try-it-now">See Demo</a></div>
+    </div>
+    <div class="speaker-images">
+        <img class="s1" src="/imgs/speaker-high.png">
+        <img class="s2" src="/imgs/speaker-low.png">
+    </div>
+    <button class="music-button" onclick="play()">CLICK</button>
+    <audio id="audio" src="/mp3/song.mp3"></audio>
+</div>
+
+<div class="yellow-image">
+    <div class="section-box yellow">
+        <div class="navbar-background">
+            <div class="burger-wrapper">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="header-title">
+                exp|con
+            </div>
+            <div class="std-button">
+                <a class="try-it-now top-right-btn" href="/pricing">Try It Now</a>
+            </div>
+        </div>
+
+        <div class="yellow-text">
+            <h1>Front Row Seats</h1>
+            <p>Experience concerts up close<br>and personal.</p>
+            <div class="std-button demo-btn"><a class="try-it-now">See Demo</a></div>
+        </div>
+
+        <div class="revealers">
+            <div class="r-container">
+                <div id="r1"></div>
+                <div id="r2"></div>
+                <div id="r3"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="section-box black">
+    <div class="navbar-background">
+        <div class="burger-wrapper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="header-title">
+            exp|con
+        </div>
+        <div class="std-button">
+            <a class="try-it-now top-right-btn" href="/pricing">Try It Now</a>
+        </div>
+    </div>
+    <div class="perks-box">
+        <h1 class="perks">PERKS</h1>
+        <div class="perks-container">
+            <div class="p1">
+                <div class="line r"></div>
+                <h1>Subscription Payment Model</h1>
+                <p>No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
+            </div>
+            <div class="p2">
+                <div class="line b"></div>
+                <h1>No Fee Cancelation Policy</h1>
+                <p>No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
+            </div>
+            <div class="p3">
+                <div class="line y"></div>
+                <h1>Subscription Payment Model</h1>
+                <p>No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="section-box blue">
+    <div class="navbar-background">
+        <div class="burger-wrapper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="header-title">
+            exp|con
+        </div>
+        <div class="std-button">
+            <a class="try-it-now top-right-btn" href="/pricing">Try It Now</a>
+        </div>
+    </div>
+
+</div>
+
+<div class="section-box black">
+    <div class="navbar-background">
+        <div class="burger-wrapper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="header-title">
+            exp|con
+        </div>
+        <div class="std-button">
+            <a class="try-it-now top-right-btn" href="/pricing">Try It Now</a>
+        </div>
+    </div>
+
+</div>
